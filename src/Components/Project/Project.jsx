@@ -77,6 +77,31 @@ const Project = () =>{
                     </div>
                     <a href="https://github.com/JevonGS/Waste-Classification-with-Manual-Feature-Extraction-and-Ensemble-Learning-Techniques"><button className='mt-10 text-black bg-white w-full font-medium p-3 rounded-xl text-base hover:bg-gray-500'>See Project</button></a>
                 </div>
+                <div className="group transform transition-transform duration-300 w-full h-full bg-gray-800 rounded-2xl p-5 flex flex-col justify-between hover:border-b-2 hover:scale-105">
+                    <div>
+                        <img src="/Assets/crud.png" alt="" className='h-[200px] w-full object-fill'/>
+                        <h3 className='mt-5 text-2xl font-bold'>CRUD</h3>
+                        <p className='mt-5 text-base opacity-80'>A simple CRUD full-stack project, not yet accessible to the public but already functioning well in terms of frontend, backend, and database for entering and deleting user profile data.</p>
+                        <div className="category mt-8 flex flex-wrap gap-4 text-center w-full">
+                            <p className='bg-gray-700 rounded-xl border p-2 pl-5 pr-5'>React JS</p>
+                            <p className='bg-gray-700 rounded-xl border p-2 pl-5 pr-5'>Express JS</p>
+                            <p className='bg-gray-700 rounded-xl border p-2 pl-5 pr-5'>MySQL</p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/JevonGS/CRUD"><button className='mt-10 text-black bg-white w-full font-medium p-3 rounded-xl text-base hover:bg-gray-500'>See Project</button></a>
+                </div>
+                <div className="group transform transition-transform duration-300 w-full h-full bg-gray-800 rounded-2xl p-5 flex flex-col justify-between hover:border-b-2 hover:scale-105">
+                    <div>
+                        <img src="/Assets/str.png" alt="" className='h-[200px] w-full object-fill'/>
+                        <h3 className='mt-5 text-2xl font-bold'>StRdict - Android</h3>
+                        <p className='mt-5 text-base opacity-80'>StRdict is my application that aims to predict whether a person will experience a positive or negative stroke by entering some daily data. Using Kotlin as main language for making the Apps and Random Forest Classifier for the AI</p>
+                        <div className="category mt-8 flex flex-wrap gap-4 text-center w-full">
+                            <p className='bg-gray-700 rounded-xl border p-2 pl-5 pr-5'>Kotlin</p>
+                            <p className='bg-gray-700 rounded-xl border p-2 pl-5 pr-5'>Python</p>
+                        </div>
+                    </div>
+                    <a href="https://github.com/JevonGS/StRdict-Android"><button className='mt-10 text-black bg-white w-full font-medium p-3 rounded-xl text-base hover:bg-gray-500'>See Project</button></a>
+                </div>
             </div>
         </div>
     );

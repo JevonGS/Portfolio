@@ -62,7 +62,30 @@ const About = () =>{
                         <p className="text-base opacity-50">Framework</p>
                     </div>
                 </a>
-                
+                <a href="#">
+                    <div className="group item-center p-3 border rounded-md hover:bg-gray-500 w-full h-full">
+                        <h4 className="font-black text-xl">Next JS</h4>
+                        <p className="text-base opacity-50">Framework</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div className="group item-center p-3 border rounded-md hover:bg-gray-500 w-full h-full">
+                        <h4 className="font-black text-xl">Express JS</h4>
+                        <p className="text-base opacity-50">Framework</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div className="group item-center p-3 border rounded-md hover:bg-gray-500 w-full h-full">
+                        <h4 className="font-black text-xl">Node JS</h4>
+                        <p className="text-base opacity-50">Runtime Environment</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div className="group item-center p-3 border rounded-md hover:bg-gray-500 w-full h-full">
+                        <h4 className="font-black text-xl">Kotlin</h4>
+                        <p className="text-base opacity-50">Language</p>
+                    </div>
+                </a>
             </div>
         </div>
     );
